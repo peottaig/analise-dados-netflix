@@ -29,7 +29,14 @@ A base contém 8.807 títulos e 12 atributos. Ela corresponde ao conjunto [Netfl
 
 - `analise.ipynb`: análise exploratória em andamento;
 - `netflix_titles.csv`: dados utilizados pelo notebook.
+- `requirements.txt`: versões das bibliotecas utilizadas.
 
 ## Como executar
 
-Abra esta pasta no Jupyter ou no VS Code e execute `analise.ipynb` com Python e as bibliotecas `pandas`, `numpy` e `matplotlib` instaladas.
+Instale as dependências:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+Depois, abra esta pasta no Jupyter ou no VS Code e execute `analise.ipynb`.
